@@ -1,6 +1,10 @@
 # Introduction
 
-A seed project for Angular 2 apps using Sass. Derived from [mgechev/angular2-seed](https://github.com/mgechev/angular2-seed).
+A seed project for Angular 2 apps with materialize-css.
+
+Borrow heavily from [angular2-materialize](https://github.com/archfirst/angular2-materialize).
+
+Derived from [archfirst/angular2-seed-sass](https://github.com/archfirst/angular2-seed-sass), which is derived from [mgechev/angular2-seed](https://github.com/mgechev/angular2-seed).
 
 It is something similar to the Angular Quick Start but does the entire build with gulp.
 
