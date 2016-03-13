@@ -1,9 +1,9 @@
 {
-  "name": "angular2-seed-sass",
-  "version": "0.0.0",
-  "description": "Seed for Angular 2 apps using Sass",
+  "name": "ng2-materialize-seed",
+  "version": "0.1.0",
+  "description": "Seed for Angular 2 apps with materialize-css",
   "repository": {
-    "url": "https://github.com/archfirst/angular2-seed-sass"
+    "url": "https://github.com/wenris/ng2-materialize-seed"
   },
   "scripts": {
     "build.dev": "gulp build.dev",

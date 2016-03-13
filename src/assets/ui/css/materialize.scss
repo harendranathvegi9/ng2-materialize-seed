@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+// Mixins and variables
+@import "custom";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/form";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/date_picker/default.scss";
+@import "components/date_picker/default.date.scss";
+@import "components/date_picker/default.time.scss";
+
+.select-wrapper {
+  input.select-dropdown {
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  span.caret {
+    font-size: 8px;
+    color: #666;
+  }
+  ul>li>span {
+    font-size: 14px;
+  }
+}

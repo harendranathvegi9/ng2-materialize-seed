@@ -1,13 +1,16 @@
 <p>
-  Howdy! Here's a list of awesome computer scientists.
-  Do you know any others? Add to the list yourself.
+  Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.
 </p>
 
-<form (submit)="addName()">
-  <input [(ngModel)]="newName" placeholder="Awesome Computer Scientist">
-  <button type="submit">Add</button>
+<form materialize (submit)="addName()">
+  <div class="input-field">
+    <input id="new-name" type="text" [(ngModel)]="newName">
+    <label for="new-name">Name</label>
+  </div>
+  <button type="submib" class="btn waves-effect waves-light">
+    <i class="material-icons right">send</i>Add
+  </button>
 </form>
-
 
 <ul>
   <li *ngFor="#name of nameListService.get()">{{name}}</li>

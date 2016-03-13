@@ -1,4 +1,11 @@
 <nav>
-  <a [routerLink]="['Home']">HOME</a>
-  <a [routerLink]="['About']">ABOUT</a>
+  <div class="nav-wrapper">
+    <ul class="left hide-on-med-and-down">
+      <li><a [routerLink]="['Home']" class="waves-effect waves-light">HOME</a></li>
+      <li><a [routerLink]="['About']" class="waves-effect waves-light">ABOUT</a></li>
+    </ul>
+    <ul class="right hide-on-med-and-down">
+      <li><a><i class="material-icons left">search</i>Search</a></li>
+    </ul>
+  </div>
 </nav>

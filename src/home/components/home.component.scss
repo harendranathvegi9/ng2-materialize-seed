@@ -1,13 +1,19 @@
-:host {
+@import 'ui/css/components/color';
+ :host {
   display: block;
   padding: 0 16px;
 }
-
-input {
-  width: 250px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0 0 0 8px;
+form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  input {
+    width: 240px;
+  }
+  label {
+    left: 0;
+  }
+  button {
+    margin-left: 24px;
+  }
 }

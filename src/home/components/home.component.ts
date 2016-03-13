@@ -1,6 +1,7 @@
 import {Component} from 'angular2/core';
-import {CORE_DIRECTIVES, FORM_DIRECTIVES} from 'angular2/common';
+//import {CORE_DIRECTIVES, FORM_DIRECTIVES} from 'angular2/common';
 
+import {MaterializeDirective} from '../../shared/directives/materialize.directive';
 import {NameListService} from '../../shared/services/name-list.service';
 
 @Component({
@@ -8,7 +9,7 @@ import {NameListService} from '../../shared/services/name-list.service';
   moduleId: module.id,
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  directives: [FORM_DIRECTIVES, CORE_DIRECTIVES]
+  directives: [MaterializeDirective]
 })
 export class HomeComponent {
   newName: string;
