@@ -1,8 +1,8 @@
 # Introduction
 
-A seed project for Angular 2 apps with materialize-css.
+A seed project for Angular 2 apps with [Materialize](http://materializecss.com/).
 
-Borrow heavily from [angular2-materialize](https://github.com/archfirst/angular2-materialize).
+Borrow heavily from [angular2-materialize](https://github.com/InfomediaLtd/angular2-materialize).
 
 Derived from [archfirst/angular2-seed-sass](https://github.com/archfirst/angular2-seed-sass), which is derived from [mgechev/angular2-seed](https://github.com/mgechev/angular2-seed).
 
